@@ -1,0 +1,99 @@
+body {
+    background-color: #c0b091 !important;
+}
+
+.home {
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    display: grid;
+    grid-template:auto auto auto / auto auto auto;
+    width: 700px;
+    justify-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.seat {
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    color: #000000;
+    align-content: center;
+    text-align: center;
+    margin: 6px;
+    border-radius: 5px;
+}
+
+.selectable {
+    cursor: pointer;
+}
+
+.flex-container h5 {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.screen {
+    margin-top: 60px;
+    background-color: white;
+    color: white;
+    width: 700px;
+    height: 8px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.movie-selection {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #101010;
+    color: white;
+}
+
+.movie-list {
+    margin: 20px 0;
+}
+
+.info {
+    padding: 5px 10px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.info li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+p.text span {
+    color: #fffdfd;
+}
+
+.movie-information {
+    text-align: center;
+}
+
+
+.seat.selected {
+    background-color: #507c50;
+    color: white;
+}
+
+.seat.reserved {
+    background-color: #3a3939;
+    color: white;
+}
