@@ -10,4 +10,5 @@ An e-trade website for ticket sale with option to select cinema seats. This is a
 - All seats filled with seat numbers with javascript instead of hard-coding on html. 
 
 
+![Ticket Sale](https://github.com/zeybusra/Ticket-Sale/blob/main/Screenshot.png?raw=true)
 
